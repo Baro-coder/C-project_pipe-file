@@ -16,11 +16,10 @@ ___
 Przejście do katalogu projektu:
 > cd *existing project folder*
 
-Skompilowanie pliku źródłowego:
-> gcc -o project.out project.c
+Wywołanie pliku uruchamiającego:
+> ./build_and_run.sh
 
-Wywołanie pliku wykonywalnego: *project.out*:
-> ./project.out
+Skrypt uruchamiający samodzielnie kompiluje kod źródłowy i w sytuacji powodzenia uruchamia program.
 
 ## Procesy
 ### Proces potomny 1:
